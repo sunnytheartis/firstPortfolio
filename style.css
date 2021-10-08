@@ -9,13 +9,25 @@
     margin: 50px;
     border: blue;
 }
-/* .ocean{
-    background-image: url("../firstPortfolio/pictures/ocean.jpg");
-    background-size: cover;
-    display: block;
-    height: 200px;
-    margin-bottom: 20px;
-    position: relative;
 
-  }*/
-  /*When you need opposite hover effect create the background image then color box color
+.project1{
+    background-image: url(./pictures/ocean.jpg);
+}
+
+.projec21{
+    background-image: url(./pictures/puzzle.jpg);
+}
+
+.project3{
+    background-image: url(./pictures/download.jpg);
+}
+
+.project4{
+    background-image: url(./pictures/runner.jpg);
+}
+
+.project5{
+    background-image: url(./pictures/calculator-1470.jpg);
+}
+
+
