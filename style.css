@@ -1,14 +1,4 @@
-*.column-left{
-    flex-direction: column;
-    border:blue;
-}
-*.project-box{
-    width: 400px;
-    height: 200px;
-    padding: 10px;
-    margin: 50px;
-    border: blue;
-}
+
 
 .project1{
     background-image: url(./pictures/ocean.jpg);
@@ -29,5 +19,23 @@
 .project5{
     background-image: url(./pictures/calculator-1470.jpg);
 }
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.pageSection{
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+ 
 
 

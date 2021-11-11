@@ -1,87 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../style.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
-    <header>
-        <h1>DeShayna</h1>
-        <nav>
-            
-                <a href = "#aboutMe">About Me</a>
-                <a href = "#aboutMe">Work</li>
-                <a href = "#aboutMe">Contact Me</li>
-                <a href = "#aboutMe">Resume</li>
-        
-        </nav>
-    </header>
+    <div class="container">
+        <header class="row">
+            <h1>DeShayna</h1>
+            <nav>
 
-    <section class="hero-banner">
-        <div>
-          <h2>Cool subtitle here!</h2>
-        </div>
-      </section>
+                <a href="#aboutMe">About Me</a>
+                <a href="#aboutMe">Work</a>
+                <a href="#aboutMe">Contact Me</a>
+                <a href="#aboutMe">Resume</a>
 
-    <section class = "aboutMe" >
-        <h2 class = "">About me</h2>
-        <p>
-            My name is DeShayna Denham. I am studying web development with Georgia Tech.
-        </p>
-    </section>
-    <section class = "projectContent" id = "projects">
-        <h2>Work</h2>
-        <a href="#" class = "project1">
-        <div>
-            <h3>Project1</h3>
-            <span>projectone</span>
-        </div>
-    </a> 
-
-    <a href="#" class = "project2">
-        <div>
-            <h3>Project2</h3>
-            <span>projecttwo</span>
-        </div>
-    </a> 
-
-    <a href="#" class = "project3">
-        <div>
-            <h3>Project3</h3>
-            <span>projectthree</span>
-        </div>
-    </a> 
-
-    <a href="#" class = "project4">
-        <div>
-            <h3>Project4</h3>
-            <span>projectfour</span>
-        </div>
-    </a> 
-
-    <a href="#" class = "project5">
-        <div>
-            <h3>Project5</h3>
-            <span>projectfive</span>
-        </div>
-    </a> 
+            </nav>
+        </header>
 
 
-    </section>
 
-    <footer class = "contactSection" id = "contact">
-        <h1>Contact Me!</h1>
-        <p>
-            <a href="6789146992">6789146992</a>
-            <a href = "deshaynadenham@gmail.com">deshaynadenham@gmail.com</a>
-            <a href="github.com/sunnytheartis">github.com/sunnytheartis</a>
-            <a href = "twitter.com">Twitter</a>
-            <a href = "spotify.com">Spotify</a>
+        <section class="aboutMe row">
+            <h2 class="">About me</h2>
+            <p>
+                My name is DeShayna Denham. I am studying web development with Georgia Tech.
+            </p>
+            <h2>Work</h2>
+        </section>
+        <section class="projectContent row" id="projects">
+            <div class="col-3">
+                <h3>
+                    <a href="https://donk1557.github.io/halfway-there/" class="project1">
+                        <h3>Project1</h3>
+                    </a>
+                </h3>
+                <img src="./pictures/ocean.jpg" alt="">
+                    <span>projectone</span>
 
-        </p>
-    </footer>
+
+                <h3>
+                    <a href="https://magical-wait-times.herokuapp.com/" class="project2">
+                        <h3>Project2</h3>
+                    </a>
+                </h3>
+                <img src="./pictures/puzzle.jpg" alt="">
+                    <span>projecttwo</span>
+            </div>
+
+            <div class="col-3">
+                <h3>
+                    <a href="#" class="project3">
+                        <h3>Project3</h3>
+                    </a>
+                </h3>
+                <img src="./pictures/download.jpg" alt="">
+                    <span>projectthree</span>
+
+
+
+                <h3>
+                    <a href="#" class="project4">
+                        <h3>Project4</h3>
+                    </a>
+                </h3>
+                <img src="./pictures/runner.jpg" alt="">
+                    <span>projectfour</span>
+            </div>
+
+            <div class="col-3">
+                <h3>
+                    <a href="#" class="project5">
+                        <h3>Project5</h3>
+                    </a>
+                </h3>
+                <img src="./pictures/calculator-1470.jpg" alt="">
+                    <span>projectfive</span>
+            </div>
+
+
+        </section>
+    </div>
+
+
+        <footer class="contactSection" id="contact">
+            <h1>Contact Me!</h1>
+            <p>
+                <a href="6789146992">6789146992</a>
+                <a href="deshaynadenham@gmail.com">deshaynadenham@gmail.com</a>
+                <a href="github.com/sunnytheartis">github.com/sunnytheartis</a>
+                <a href="twitter.com">Twitter</a>
+                <a href="spotify.com">Spotify</a>
+
+            </p>
+        </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
